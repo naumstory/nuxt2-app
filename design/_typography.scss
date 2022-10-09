@@ -1,0 +1,18 @@
+@mixin typography($variant) {
+  @if ($variant == 'h2') {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+  } @else if ($variant == 'h5') {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+  } @else if ($variant == 'body-main') {
+    font-size: 16px;
+    line-height: 1.4;
+  } @else if ($variant == 'button-main') {
+    font-size: 15px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+  }
+}

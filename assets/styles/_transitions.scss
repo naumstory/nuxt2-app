@@ -1,0 +1,8 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity var(--transition-speed-m) ease-out;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}

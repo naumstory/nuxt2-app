@@ -1,0 +1,1 @@
+# Nuxt.js 2 App

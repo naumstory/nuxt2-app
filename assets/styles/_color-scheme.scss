@@ -1,0 +1,33 @@
+.color-scheme {
+  &:not(&_provider) {
+    background-color: var(--color-background);
+    color: var(--color-text);
+
+    ::selection {
+      background-color: var(--color-text);
+      color: var(--color-background);
+    }
+  }
+
+  &,
+  &_light {
+    --color-background: #f9f9f9;
+    --color-text: #282828;
+    --color-text-secondary: #696969;
+    --color-divider: #e1e4e8;
+
+    --color-highlight-background: #ffffff;
+    --color-highlight-text: var(--color-text);
+
+    --color-accent-background: #2c7efa;
+    --color-accent-text: #ffffff;
+
+    --color-success-background: #d8efd8;
+    --color-success-text: #0c3704;
+    --color-success-divider: #4c724f;
+
+    --color-error-background: #f2dddd;
+    --color-error-text: #370404;
+    --color-error-divider: #7c5050;
+  }
+}
